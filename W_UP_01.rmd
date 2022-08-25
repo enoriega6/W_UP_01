@@ -67,9 +67,10 @@ this table shows that are a higher number of mean push ups by skill players than
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-T-test shows that the p value is 0.0000009421, and is less than 0.05, therefore I reject the null hypothesis.
+T-test shows that the p value is 0.0000009421, and is less than 0.05, therefore I reject the null hypothesis. The skill players did about 3 times as many pushups compared to line players.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The question was the number of pushups compared to skill players and line players, based on the t-test it was shown the we would reject the null hypothesis.
