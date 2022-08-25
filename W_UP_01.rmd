@@ -40,9 +40,17 @@ Because the response variable is numerical and the explanatory variable is categ
 
 ### Graphical Descriptive Results
 
-<!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+<!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->  
 
-### Numerical Descriptive Results
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+
+This boxplot shows the skill players do more pushups than the line players
+
+
+## Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
