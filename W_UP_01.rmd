@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
-author: "your name here"
-date: "fall 2020"
+author: "Eduardo Noriega"
+date: " August 24,2022"
 output: html_document
 ---
 
@@ -30,6 +30,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+Because the response variable is numerical and the explanatory variable is categorical, I am going to use the t-test and a boxplot
 
 # Results
 
